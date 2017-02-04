@@ -16,7 +16,7 @@ $worker = new Worker("http://0.0.0.0:2345", 4);
 
 $worker->onMessage = function()
 {
-    echo "Worker start";
+    echo "Worker start1";
 };
 
 
